@@ -1,0 +1,101 @@
+#thepanel {
+border: 10px solid rgba(0,0,0,0.0);
+border-radius: 15px;
+background-color: rgba(0,0,0,0.8);
+-moz-appearance: none;
+/* -moz-transition: all 2s linear; */
+
+/* backface-visibility: hidden; */
+}
+
+.A1 {
+    cursor: url(../cursor_alt.svg), auto;
+}
+
+#thepanelT {
+border: 10px solid rgba(0,0,0,0.1);
+border-radius: 15px;
+background-color: rgba(0,0,0,0.8);
+transition: all 1s linear;
+-moz-appearance: none;
+}
+
+.frameButton {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  -moz-appearance: none;
+}
+
+#thepanelT:hover {
+border: 10px solid rgba(0,0,0,0.0);
+background-color: rgba(0,0,0,0.2);
+opacity: 0.5;
+}
+
+#context {
+border: 10px solid rgba(0,0,0,0.1);
+border-radius: 15px;
+background-color: rgba(0,0,0,0.8);
+-moz-appearance: none;
+}
+
+/*#emoji {
+    background: green;
+}*/
+
+#urlbar,#stop,#reload,#go,#menubar1,#file,#help,#autocomplete,#history {
+background-color: black;
+-moz-appearance: none;
+color: white;
+
+opacity: 0.8;
+}
+
+#forward,#back
+
+{
+
+background-color: black;
+-moz-appearance: none;
+opacity: 0.8;
+border: none;
+}
+
+#go
+{
+display: inline-block;
+-moz-appearance: none;
+min-width: 1em;
+}
+
+#file:hover
+{
+color: #D3D3D3;
+}
+
+#status,#progress,#security
+{
+color: white;
+-moz-appearance: none;
+}
+
+#emojiBox {
+    font-size: 36px;
+    /*background: yellow;*/
+}
+/*
+.boxContainer {
+    outline: dotted red;
+}*/
+
+#pasteField {
+    font-size: 26px;
+}
+
+#codeField {
+    font-size: 26px;
+}
